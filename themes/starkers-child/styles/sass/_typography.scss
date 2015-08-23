@@ -1,0 +1,24 @@
+.heading-large {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 28px;
+	margin: $pad 0;
+}
+
+a {
+	text-decoration: none;
+	color: $color-baby_blue;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+p {
+	margin: 0;
+	margin-bottom: $pad;
+	text-indent: $pad;
+	text-indent: 0;
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Wound Care Resources",
+  "version": "0.0.0",
+  "homepage": "http://woundcareresources.com",
+  "authors": [
+    "Adrian Miller <adrianjonmiller@gmail.com>"
+  ],
+  "description": "Custom theme for Wound Care Resources",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dont_over_think_it": "https://github.com/adrianjonmiller/dont_over_think_it.git#~0.0.1",
+    "ionicons": "~1.5.2",
+    "jsbehave": "https://github.com/adrianjonmiller/jsbehave.git",
+    "normalize-css": "~3.0.1",
+    "masonry": "~3.1.5",
+    "select2": "~3.5.1"
+  }
+}
