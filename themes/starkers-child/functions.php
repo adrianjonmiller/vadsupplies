@@ -64,7 +64,7 @@ function my_register_sidebars() {
 			'id' => 'primary',
 			'name' => __( 'Primary' ),
 			'description' => __( 'Primary sidebar.' ),
-			'before_widget' => '<div id="left-widget-area" class="widget %2$s">',
+			'before_widget' => '<div class="widget %2$s">',
 			'after_widget' => '</div>',
 			'before_title' => '<h3 class="widget-title">',
 			'after_title' => '</h3>'

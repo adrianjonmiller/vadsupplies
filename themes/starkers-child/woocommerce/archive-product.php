@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 			<?php dynamic_sidebar( 'product-sidebar' ); ?>
 		</div>
 		<?php endif; ?>
-		<div class="col-1">
+		<div class="col-1 product-drop" data-behavior="masonry">
 
 		<?php
 				/**

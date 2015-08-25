@@ -12,13 +12,18 @@
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
-<div class="col-1">
+<div class="col-3-4">
 	<div class="module white-bg">
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php wc_get_template_part( 'content', 'single-product' ); ?>
 
 		<?php endwhile; // end of the loop. ?>
+	</div>
+</div>
+<div class="col-1-4">
+	<div class="module white-bg">
+		<?php dynamic_sidebar( 'primary' ); ?>
 	</div>
 </div>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
