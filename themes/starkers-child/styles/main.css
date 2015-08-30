@@ -307,7 +307,14 @@ hr {
   padding-bottom: 60px; }
 
 .related.products .products .product {
-  max-width: 25%; }
+  max-width: 33.33333333%;
+  padding-bottom: 36px; }
+  .related.products .products .product .add_to_cart_button {
+    position: absolute;
+    bottom: 0;
+    left: 1em;
+    right: 1em;
+    text-align: center; }
 
 .text-block {
   color: #fff; }
